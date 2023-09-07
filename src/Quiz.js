@@ -25,8 +25,7 @@ export default function Quiz(props){
           setSelectedOption(option);
         }
       };
-      console.log(ch[0])
-      console.log(selectedOption)
+      
 
       if(ch[0] ===selectedOption){
         props.fun(props.id)
